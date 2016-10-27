@@ -15,12 +15,12 @@ TEMPLATE = app
 SOURCES += main.cpp\
         pellarudo.cpp \
     game.cpp \
-    dice.cpp \
-    bet.cpp
+    bet.cpp \
+    player.cpp
 
 HEADERS  += pellarudo.h \
     game.h \
-    dice.h \
-    bet.h
+    bet.h \
+    player.h
 
 FORMS    += pellarudo.ui

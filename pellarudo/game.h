@@ -4,9 +4,14 @@
 
 class game
 {
-    Q_OBJECT
+
 public:
     game();
+
+private:
+    int _nb_players;
+    player _players;
+
 };
 
 #endif // GAME_H
