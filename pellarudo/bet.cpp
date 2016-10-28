@@ -1,21 +1,19 @@
 #include "bet.h"
 
-bet::bet()
-{
+bet::bet() : _value (-1), _count (-1) {}
 
+int bet :: get_value ()
+{
+    return _value;
 }
 
-int get_value ()
+int bet :: get_count ()
 {
-    return 0;
+    return _count;
 }
 
-int get_count ()
+void bet :: set_bet (int value, int count)
 {
-    return 0;
-}
-
-void set_bet (int value, int count)
-{
-    return;
+    _value = value;
+    _count = count;
 }
